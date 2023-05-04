@@ -2,38 +2,41 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the main objective of Structural Design Patterns?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To create new objects",
+        "b": "To form larger structures using existing objects",
+        "c": "To remove unnecessary objects",
+        "d": "None of the above"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+     
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Which of the following is a type of Structural Pattern?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Decorator pattern",
+        "b": "Iterator pattern",
+        "c": "Behavioral pattern",
+        "d": "Factory pattern"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+       
       "correctAnswer": "c",
       "difficulty": "beginner"
-    }
+    },
+    {
+        "question": "What is the purpose of the Decorator pattern?",
+        "answers": {
+          "a": "To remove objects from the system",
+          "b": "To add new functionality to an existing object without altering its structure",
+          "c": "To create new objects",
+          "d": "None of the above"
+        },
+         
+        "correctAnswer": "c",
+        "difficulty": "beginner"
+      }
+
   ]
 }

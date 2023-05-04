@@ -1,39 +1,32 @@
 {
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+    "version": 2.0,
+    "questions": [
+      {
+        "question": "Which of the following is not an example of a Structural pattern?",
+        "answers": {
+          "a": "Adapter",
+          "b": "Facade",
+          "c": "Decorator",
+          "d": "Iterator"
+        },
+       
+        "correctAnswer": "b",
+        "difficulty": "beginner"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
-}
+      {
+        "question": "Suppose you are developing a large-scale software application that needs to work with a complex database schema. You want to create a structural pattern to separate the database access logic from the application logic.Which of the following statements about using the DAO (Data Access Object) design pattern to accomplish this goal is true?",
+        "answers": {
+          "a": "The DAO pattern should be used to create a separate class for each table in the database, with methods for inserting, updating, and deleting records.",
+          "b": "The DAO pattern should be used to create a single class that contains methods for accessing all tables in the database.",
+          "c": "The DAO pattern should be used to create a single interface that defines the methods for accessing the database, and multiple implementations for each table in the database.",
+          "d": "The DAO pattern is not applicable to this scenario."
+        },
+         
+        "correctAnswer": "c",
+        "difficulty": "beginner"
+      }
+      
+  
+    ]
+  }
+  
