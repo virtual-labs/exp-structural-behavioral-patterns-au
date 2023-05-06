@@ -40,18 +40,24 @@ Experiment 5 recap: The aggregation and composition relationship of the class **
 
 Experiment 6 recap: The generalization of the class Customer and class Exec as the class Person was implemented in Java.
 
-Experiment 7 recap: The steps to implement the polymorphic behaviour of the Person object as Customer and Exec objects before and after conversion of the class Person as abstract are performed.
+Experiment 7 recap: The subtype polymorphism was implemented in class Person and the upcasting and down casting of Person, Customer and Exec object was implemented in Java.
 
-Now the creational design patterns Singleton pattern and Factory pattern are to be implemented in Java.
+Experiment 8 recap: The creational patterns – Factory, Singleton, and Builder were implemented.
 
-Step 1: Create the PersonFactory class and implement methods to return objects of the Customer or Exec class based on a text field parameter being passed.
+Now, the steps to implement the structural patterns – Decorator and behavioural pattern – Iterator as follows:
 
-Step 2: Modify the TestDriver class to accommodate the newly added PersonFactory class.
+Step 1: Using the decorator pattern, design a decorator to enhance the Vehicle hiring rates as follows:
 
-Step 3: Implement the PersonBuilder class to include the Email, Phone or City fields based on availability.
+i. provide weekend offer of 10% - **WeenkEndDecorator** Class
 
-Step 4: Now implement the singleton pattern by making the RentalSystem object in the TestDriver private and static.
+ii. provide peak season hiring price increase by 30% - **PeakSeasonDecorator** class
 
-Output: Execution of the TestDriver code is shown in the console view.
+iii. Provide offer of 5% when hiring in afternoons. – **AfterNoonDecorator** class
 
-> **Note:** Work on the experiments sequentially.
+The user is allowed to any choose combination of the decorations over an existing vehicle.
+
+Step 2: Using the Iterator pattern, display the current list of customers, executives, vehicles and reservations in the system.
+
+Output: Execution of the **TestDriver** code is displayed for steps 1 and 2.
+
+>Note: Work on the experiments sequentially.
