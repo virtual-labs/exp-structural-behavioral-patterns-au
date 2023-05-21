@@ -1,3 +1,3 @@
-## Experiment name
+## Structural and Behavioural Patterns
 
-Structural and Behavioural Patterns
+
