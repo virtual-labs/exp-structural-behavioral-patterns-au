@@ -44,6 +44,8 @@ Experiment 7 recap: The subtype polymorphism was implemented in class Person and
 
 Experiment 8 recap: The creational patterns – Factory, Singleton, and Builder were implemented.
 
+#### Steps to complete current experiment:
+
 Now, the steps to implement the structural patterns – Decorator and behavioural pattern – Iterator as follows:
 
 Step 1: Using the decorator pattern, design a decorator to enhance the Vehicle hiring rates as follows:
