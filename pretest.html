@@ -356,7 +356,7 @@
                 
                 
                   <div class="question beginner">
-                    What is the main objective of Structural Design Patterns?
+                    1. What is the main objective of Structural Design Patterns?
                   </div>
                   
                   <div class="answers">
@@ -395,7 +395,7 @@
                 </div>
                 
                   <div class="question beginner">
-                    Which of the following is a type of Structural Pattern?
+                    2. Which of the following is a type of Structural Pattern?
                   </div>
                   
                   <div class="answers">
@@ -434,7 +434,7 @@
                 </div>
                 
                   <div class="question beginner">
-                    What is the purpose of the Decorator pattern?
+                    3. What is the purpose of the Decorator pattern?
                   </div>
                   
                   <div class="answers">
@@ -471,13 +471,92 @@
                     </div>
                     <p class="panel">Explanation</p>
                 </div>
+
+                <div class="question beginner">
+                    4. What is the key difference between compile-time and runtime polymorphism in Java?
+                  </div>
+                  
+                  <div class="answers">
+                    <div id="answer3a">
+                      <label>
+                        <input type="radio" name="question3" value="a">
+                        a: Compile-time polymorphism is implemented using method overriding, while runtime polymorphism is implemented using method overloading.
+                      </label>
+                      <a href="#" id="explanation3a" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer3b">
+                      <label>
+                        <input type="radio" name="question3" value="b">
+                        b: Compile-time polymorphism is determined during compilation, while runtime polymorphism is resolved at runtime.
+                      </label>
+                      <a href="#" id="explanation3b" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer3c">
+                      <label>
+                        <input type="radio" name="question3" value="c">
+                        c: Runtime polymorphism is faster than compile-time polymorphism.
+                      </label>
+                      <a href="#" id="explanation3c" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer3d">
+                      <label>
+                        <input type="radio" name="question3" value="d">
+                        d: Compile-time polymorphism is achieved using interfaces.
+                      </label>
+                      <a href="#" id="explanation3d" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                </div>
+
+                <div class="question beginner">
+                    5. Which of the following statements about method overloading is true?
+                  </div>
+                  
+                  <div class="answers">
+                    <div id="answer4a">
+                      <label>
+                        <input type="radio" name="question4" value="a">
+                        a: Method overloading occurs only in different classes.
+                      </label>
+                      <a href="#" id="explanation4a" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer4b">
+                      <label>
+                        <input type="radio" name="question4" value="b">
+                        b: Method overloading is achieved by changing the method name.
+                      </label>
+                      <a href="#" id="explanation4b" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer4c">
+                      <label>
+                        <input type="radio" name="question4" value="c">
+                        c: Method overloading allows multiple methods with the same name but different parameters. 
+                      </label>
+                      <a href="#" id="explanation4c" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer4d">
+                      <label>
+                        <input type="radio" name="question4" value="d">
+                        d: Overloaded methods must have the same return type.
+                      </label>
+                      <a href="#" id="explanation4d" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                </div>
+
                </div>
                 <button id="submit" class="btn btn-primary">Submit Quiz</button>
                 <div id="results"></div>
           </div>
             
             <script>
-              const myQuestions = [{"question":"What is the main objective of Structural Design Patterns?","answers":{"a":"To create new objects","b":"To form larger structures using existing objects","c":"To remove unnecessary objects","d":"None of the above"},"correctAnswer":"a","difficulty":"beginner"},{"question":"Which of the following is a type of Structural Pattern?","answers":{"a":"Decorator pattern","b":"Iterator pattern","c":"Behavioral pattern","d":"Factory pattern"},"correctAnswer":"c","difficulty":"beginner"},{"question":"What is the purpose of the Decorator pattern?","answers":{"a":"To remove objects from the system","b":"To add new functionality to an existing object without altering its structure","c":"To create new objects","d":"None of the above"},"correctAnswer":"c","difficulty":"beginner"}];
+              const myQuestions = [{"question":"What is the main objective of Structural Design Patterns?","answers":{"a":"To create new objects","b":"To form larger structures using existing objects","c":"To remove unnecessary objects","d":"None of the above"},"correctAnswer":"a","difficulty":"beginner"},{"question":"Which of the following is a type of Structural Pattern?","answers":{"a":"Decorator pattern","b":"Iterator pattern","c":"Behavioral pattern","d":"Factory pattern"},"correctAnswer":"c","difficulty":"beginner"},{"question":"What is the purpose of the Decorator pattern?","answers":{"a":"To remove objects from the system","b":"To add new functionality to an existing object without altering its structure","c":"To create new objects","d":"None of the above"},"correctAnswer":"c","difficulty":"beginner"},{"question":"4. What is the key difference between compile-time and runtime polymorphism in Java?","answers":{"a":"Compile-time polymorphism is implemented using method overriding, while runtime polymorphism is implemented using method overloading.","b":"Compile-time polymorphism is determined during compilation, while runtime polymorphism is resolved at runtime.","c":"Runtime polymorphism is faster than compile-time polymorphism.","d":"Compile-time polymorphism is achieved using interfaces."},"correctAnswer":"b","difficulty":"beginner"},{"question":"5. Which of the following statements about method overloading is true?","answers":{"a":"Method overloading occurs only in different classes.","b":"Method overloading is achieved by changing the method name.","c":"Method overloading allows multiple methods with the same name but different parameters.","d":"Overloaded methods must have the same return type."},"correctAnswer":"c","difficulty":"beginner"}];
             </script>
               <script src="./assets/js/assessment_v2.js"></script>  
           <div class="bug-report-mobile">

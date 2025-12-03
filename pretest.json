@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "What is the main objective of Structural Design Patterns?",
+      "question": "1. What is the main objective of Structural Design Patterns?",
       "answers": {
         "a": "To create new objects",
         "b": "To form larger structures using existing objects",
@@ -14,7 +14,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Which of the following is a type of Structural Pattern?",
+      "question": "2. Which of the following is a type of Structural Pattern?",
       "answers": {
         "a": "Decorator pattern",
         "b": "Iterator pattern",
@@ -26,12 +26,36 @@
       "difficulty": "beginner"
     },
     {
-        "question": "What is the purpose of the Decorator pattern?",
+        "question": "3. What is the purpose of the Decorator pattern?",
         "answers": {
           "a": "To remove objects from the system",
           "b": "To add new functionality to an existing object without altering its structure",
           "c": "To create new objects",
           "d": "None of the above"
+        },
+         
+        "correctAnswer": "c",
+        "difficulty": "beginner"
+      },
+          {
+        "question": "4. What is the key difference between compile-time and runtime polymorphism in Java?",
+        "answers": {
+          "a": "Compile-time polymorphism is implemented using method overriding, while runtime polymorphism is implemented using method overloading.",
+          "b": "Compile-time polymorphism is determined during compilation, while runtime polymorphism is resolved at runtime.",
+          "c": "Runtime polymorphism is faster than compile-time polymorphism.",
+          "d": "Compile-time polymorphism is achieved using interfaces."
+        },
+         
+        "correctAnswer": "b",
+        "difficulty": "beginner"
+      },
+          {
+        "question": "5. Which of the following statements about method overloading is true?",
+        "answers": {
+          "a": "Method overloading occurs only in different classes.",
+          "b": "Method overloading is achieved by changing the method name.",
+          "c": "Method overloading allows multiple methods with the same name but different parameters. ",
+          "d": "Overloaded methods must have the same return type."
         },
          
         "correctAnswer": "c",
