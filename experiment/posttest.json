@@ -2,7 +2,7 @@
     "version": 2.0,
     "questions": [
       {
-        "question": "Which of the following is not an example of a Structural pattern?",
+        "question": "1. Which of the following is not an example of a Structural pattern?",
         "answers": {
           "a": "Adapter",
           "b": "Facade",
@@ -14,7 +14,7 @@
         "difficulty": "beginner"
       },
       {
-        "question": "Suppose you are developing a large-scale software application that needs to work with a complex database schema. You want to create a structural pattern to separate the database access logic from the application logic.Which of the following statements about using the DAO (Data Access Object) design pattern to accomplish this goal is true?",
+        "question": "2. Suppose you are developing a large-scale software application that needs to work with a complex database schema. You want to create a structural pattern to separate the database access logic from the application logic.Which of the following statements about using the DAO (Data Access Object) design pattern to accomplish this goal is true?",
         "answers": {
           "a": "The DAO pattern should be used to create a separate class for each table in the database, with methods for inserting, updating, and deleting records.",
           "b": "The DAO pattern should be used to create a single class that contains methods for accessing all tables in the database.",
@@ -24,9 +24,31 @@
          
         "correctAnswer": "c",
         "difficulty": "beginner"
+      },
+            {
+        "question": "3. What will be the output of this code?\n class Parent {\n static void show() {\n System.out.println('Parent');\n }\n }\n  class Child extends Parent {\n static void show() {\n System.out.println('Child');\n }\n }\n public class Main {\n public static void main(String[] args) {\n Parent p = new Child();\n p.show();\n }\n }",
+        "answers": {
+          "a": "Parent",
+          "b": "Child",
+          "c": "Compilation error",
+          "d": "Runtime error"
+        },
+         
+        "correctAnswer": "a",
+        "difficulty": "beginner"
+      },
+            {
+        "question": "4. What will be the output of the following code?\n class A {\n void display() {\n System.out.println('Class A');\n }\n }\n class B extends A {\n void display() {\n System.out.println('Class B');\n }\n public class Main {\n public static void main(String[] args) {\n A obj = new B();\n obj.display();\n }\n }\n",
+        "answers": {
+          "a": "Class A",
+          "b": "Class B",
+          "c": "Compilation error",
+          "d": "Runtime error"
+        },
+         
+        "correctAnswer": "b",
+        "difficulty": "beginner"
       }
-      
-  
     ]
   }
   
